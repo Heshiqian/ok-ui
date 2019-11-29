@@ -220,6 +220,8 @@ h2:hover {
 
 .header {
     position: fixed;
+    /*写position: fixed;你不加z-index约束一下吗*/
+    z-index:999;
     left: 0;
     top: 0;
     width: 80%;
